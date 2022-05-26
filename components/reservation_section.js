@@ -2,7 +2,7 @@ import React from "react";
 import Rellax from "rellax";
 import { useEffect } from "react";
 
-const MenuSection = () => {
+const ReservationSection = () => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       window.onload = function () {
@@ -15,30 +15,32 @@ const MenuSection = () => {
   }, []);
 
   return (
-    <div className="relative mt-[15px]">
-      <div className="absolute top-[30%] w-full z-10 text-center text-white rellax px-[15px] lg:top-[40%]">
-        <div className="font-bold text-[14px] tracking-[0.15em] max-w-[480px] mx-auto mt-[10px] mb-[15px] lg:text-[16px]">
-          THỰC ĐƠN
-        </div>
-        <div className="italic text-[18px] max-w-[480px] mx-auto mt-[10px] mb-[15px] lg:text-[20px]">
-          Chúng tôi có menu rất là chất lượng, xem đi nha hi hi hi
-        </div>
-        <div className="text-[12px] max-w-[480px] mx-auto mt-[10px] mb-[15px] lg:text-[14px]">
-          <button className="border m-[30px] px-[30px] py-[12px] tracking-[0.1em] rounded-md">
-            Chi tiết
-          </button>
-        </div>
-      </div>
-
+    <div className="relative">
       <div
         className="bg-center bg-no-repeat w-full h-screen"
         style={{
-          backgroundImage: `url(https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/Ftrantzen_Book_9759-scaled.jpg)`,
+          backgroundImage: `url(https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/5D4_1918-001-scaled.jpg)`,
           backgroundSize: "auto 100%",
         }}
       ></div>
+
+      <div className="absolute top-[30%] w-full z-10 text-center text-white rellax px-[15px] lg:top-[40%]">
+        <div className="font-bold text-[14px] tracking-[0.15em] max-w-[480px] mx-auto mt-[10px] mb-[15px] lg:text-[16px]">
+          ĐẶT BÀN
+        </div>
+        <div className="italic text-[18px] max-w-[480px] mx-auto mt-[10px] mb-[15px] lg:text-[20px]">
+          Nếu quý khách đi theo nhóm từ 5 đến 12 người, hoan hỉ liên hệ đặt bàn
+          (qua điện thoại, Facebook, Instagram, Zalo) để chúng tôi phục vụ quý
+          khách tốt hơn. Trân trọng cảm ơn quý khách
+        </div>
+        {/* <div className="text-[12px] max-w-[480px] mx-auto mt-[10px] mb-[15px] lg:text-[14px]">
+          <button className="border m-[30px] px-[30px] py-[12px] tracking-[0.1em] rounded-md">
+            Chi tiết
+          </button>
+        </div> */}
+      </div>
     </div>
   );
 };
 
-export default MenuSection;
+export default ReservationSection;

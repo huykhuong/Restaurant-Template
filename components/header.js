@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Squash as Hamburger } from "hamburger-react";
 
 const Header = ({ setOpenNavigation, isIconOpen, setIconOpen }) => {
@@ -16,7 +16,7 @@ const Header = ({ setOpenNavigation, isIconOpen, setIconOpen }) => {
 
       {/* Logo */}
       <div className="fixed top-[15px] left-1/2 -translate-x-1/2 z-40">
-        <img src="/image.webp" className="h-[70px] align-center opacity-90" />
+        <img src="/image.webp" className="h-[70px] align-center" />
       </div>
     </div>
   );

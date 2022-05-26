@@ -1,35 +1,14 @@
 import React from "react";
+import Rellax from "rellax";
+import { useEffect, useRef } from "react";
+import useWindowSize from "../hooks/windowSizeHook";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import { useRef, useState } from "react";
-import useWindowSize from "../hooks/windowSizeHook";
-import Rellax from "rellax";
-import { useEffect } from "react";
 
-const renderText = (inputIndex) => {
-  switch (inputIndex) {
-    case 0:
-      return "32 chỗ, 2 tầng, 100m²";
-    case 1:
-      return "32 chỗ, 2 tầng, 100m²";
-    case 2:
-      return "Gian bếp";
-    case 3:
-      return "Gian bếp";
-    case 4:
-      return "Tầng 1";
-    case 5:
-      return "Tầng 1";
-    default:
-      break;
-  }
-};
-
-const SpaceSection = () => {
+const GallerySection = () => {
   const sliderRef = useRef();
   const size = useWindowSize();
-  const [activeSlide, setActiveSlide] = useState(0);
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -67,14 +46,14 @@ const SpaceSection = () => {
         {renderArrows()}
       </div>
 
-      <div className="absolute top-[30%] w-full px-[15px] z-10 text-center text-white rellax lg:top-[40%]">
-        <div className="font-bold text-[14px] tracking-[0.15em] lg:text-[16px]">
+      {/* <div className="absolute top-[30%] w-full px-15 z-10 text-center text-white rellax lg:top-[40%]">
+        <div className="text-[16px] tracking-[0.15em] lg:text-[18px]">
           KHÔNG GIAN
         </div>
-        <div className="italic tracking-[0.15em] opacity-90 text-[18px] lg:text-[20px]">
+        <div className="italic tracking-[0.15em] opacity-90 text-[19px] lg:text-[22px]">
           {renderText(activeSlide)}
         </div>
-      </div>
+      </div> */}
 
       <Slider
         dots={true}
@@ -83,51 +62,75 @@ const SpaceSection = () => {
         slidesToShow={size.width < 768 ? 1 : 2}
         slidesToScroll={size.width < 768 ? 1 : 2}
         arrows={false}
-        afterChange={(index) => {
-          setActiveSlide(index);
-          console.log(
-            `Slider Changed to: ${index}, background: #222; color: #bada55`
-          );
-        }}
         ref={sliderRef}
       >
         <img
           width={1500}
           height={2250}
-          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF_3000x2250-768x1152.jpg"
+          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF-web25.jpg"
         />
 
         <img
           width={1500}
           height={2250}
-          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF_3000x22502-768x1152.jpg"
+          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF-web26.jpg"
         />
 
         <img
           width={1500}
           height={2250}
-          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF_3000x22503-768x1152.jpg"
+          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF-web17.jpg"
         />
 
         <img
           width={1500}
           height={2250}
-          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF_3000x22504-768x1152.jpg"
+          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF-web18.jpg"
         />
 
         <img
           width={1500}
           height={2250}
-          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF_3000x22505-768x1152.jpg"
+          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF-web15.jpg"
         />
         <img
           width={1500}
           height={2250}
-          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF_3000x22506-768x1152.jpg"
+          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF-web16.jpg"
+        />
+        <img
+          width={1500}
+          height={2250}
+          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF-web21.jpg"
+        />
+        <img
+          width={1500}
+          height={2250}
+          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF-web22.jpg"
+        />
+        <img
+          width={1500}
+          height={2250}
+          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF-web19.jpg"
+        />
+        <img
+          width={1500}
+          height={2250}
+          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF-web20.jpg"
+        />
+        <img
+          width={1500}
+          height={2250}
+          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF-web23.jpg"
+        />
+        <img
+          width={1500}
+          height={2250}
+          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF-web24.jpg"
         />
       </Slider>
     </div>
   );
 };
 
-export default SpaceSection;
+export default GallerySection;

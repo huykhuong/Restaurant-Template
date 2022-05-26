@@ -31,22 +31,73 @@ const Navigation = ({ openNavigation, setOpenNavigation, setIconOpen }) => {
           <div className="mx-[25px] mt-[25px]">
             <ul>
               <li className={style.listItem}>
-                <a className={style.listLink}>Lời chào</a>
+                <a
+                  onClick={() => {
+                    setOpenNavigation(false), setIconOpen(false);
+                  }}
+                  href="#welcome"
+                  className={style.listLink}
+                >
+                  Lời chào
+                </a>
               </li>
               <li className={style.listItem}>
-                <a className={style.listLink}>Không gian</a>
+                <a
+                  onClick={() => {
+                    setOpenNavigation(false), setIconOpen(false);
+                  }}
+                  href="#space"
+                  className={style.listLink}
+                >
+                  Không gian
+                </a>
               </li>
               <li className={style.listItem}>
-                <a className={style.listLink}>Thực đơn</a>
+                <a
+                  onClick={() => {
+                    setOpenNavigation(false), setIconOpen(false);
+                  }}
+                  href="#menu"
+                  className={style.listLink}
+                >
+                  Thực đơn
+                </a>
               </li>
               <li className={style.listItem}>
-                <a className={style.listLink}>Hình ảnh</a>
+                <a
+                  onClick={() => {
+                    setOpenNavigation(false), setIconOpen(false);
+                  }}
+                  href="#photos"
+                  className={style.listLink}
+                >
+                  Hình ảnh
+                </a>
               </li>
               <li className={style.listItem}>
                 <a className={style.listLink}>Thông Điệp</a>
               </li>
               <li className={style.listItem}>
-                <a className={style.listLink}>Đặt bàn</a>
+                <a
+                  onClick={() => {
+                    setOpenNavigation(false), setIconOpen(false);
+                  }}
+                  href="#make-reservation"
+                  className={style.listLink}
+                >
+                  Đặt bàn
+                </a>
+              </li>
+              <li className={style.listItem}>
+                <a
+                  onClick={() => {
+                    setOpenNavigation(false), setIconOpen(false);
+                  }}
+                  href="#contact"
+                  className={style.listLink}
+                >
+                  Liên hệ
+                </a>
               </li>
             </ul>
           </div>

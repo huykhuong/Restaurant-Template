@@ -1,9 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
 import { useState } from "react";
+import Contacts from "../components/Contacts";
+import GallerySection from "../components/gallery_section";
 import Header from "../components/header";
 import MenuSection from "../components/menu_section";
 import Navigation from "../components/navigation";
+import ReservationSection from "../components/reservation_section";
 import SpaceSection from "../components/space_section";
 import WelcomeSection from "../components/welcome_section";
 
@@ -30,7 +33,9 @@ export default function Home() {
           setOpenNavigation={setOpenNavigation}
           setIconOpen={setOpen}
         />
+        <a name="welcome"></a>
         <WelcomeSection />
+        <a name="space"></a>
         <SpaceSection />
         <div
           className="bg-center bg-no-repeat h-screen mt-[50px]"
@@ -39,10 +44,22 @@ export default function Home() {
             backgroundSize: "auto 100%",
           }}
         ></div>
+        <a name="menu"></a>
         <MenuSection />
+        <a name="photos"></a>
+        <GallerySection />
+        <a name="make-reservation"></a>
+        <ReservationSection />
+        <a name="contact"></a>
+        <Contacts />
       </main>
 
-      <footer></footer>
+      <footer className="fixed bottom-0 w-screen border-t-2 border-t-black bg-white text-center py-[10px] z-10 text-[13px]">
+        <a href="mailto:nhahangchayantru@gmail.com">
+          nhahangchayantru@gmail.com
+        </a>{" "}
+        +46 (0)8 20 85 80
+      </footer>
     </div>
   );
 }
