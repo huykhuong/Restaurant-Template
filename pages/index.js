@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { useState } from "react";
 import Header from "../components/header";
+import MenuSection from "../components/menu_section";
 import Navigation from "../components/navigation";
 import SpaceSection from "../components/space_section";
 import WelcomeSection from "../components/welcome_section";
@@ -38,6 +39,7 @@ export default function Home() {
             backgroundSize: "auto 100%",
           }}
         ></div>
+        <MenuSection />
       </main>
 
       <footer></footer>

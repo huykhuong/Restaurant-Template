@@ -68,10 +68,10 @@ const SpaceSection = () => {
       </div>
 
       <div className="absolute top-[30%] w-full px-15 z-10 text-center text-white rellax lg:top-[40%]">
-        <div className="text-[13px] tracking-[0.15em] lg:text-[18px]">
+        <div className="text-[16px] tracking-[0.15em] lg:text-[18px]">
           KHÔNG GIAN
         </div>
-        <div className="italic tracking-[0.15em] opacity-90 text-[19px] lg:text-[37px]">
+        <div className="italic tracking-[0.15em] opacity-90 text-[19px] lg:text-[22px]">
           {renderText(activeSlide)}
         </div>
       </div>
