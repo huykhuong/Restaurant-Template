@@ -5,9 +5,11 @@ import Contacts from "../components/Contacts";
 import GallerySection from "../components/gallery_section";
 import Header from "../components/header";
 import MenuSection from "../components/menu_section";
+import Message from "../components/Message";
 import Navigation from "../components/navigation";
 import ReservationSection from "../components/reservation_section";
 import SpaceSection from "../components/space_section";
+import Story from "../components/Story";
 import WelcomeSection from "../components/welcome_section";
 
 export default function Home() {
@@ -35,6 +37,15 @@ export default function Home() {
         />
         <a name="welcome"></a>
         <WelcomeSection />
+        <a name="story"></a>
+        <Story />
+        <div
+          className="bg-center bg-no-repeat h-screen mt-[50px]"
+          style={{
+            backgroundImage: `url(https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/DSC_3225-scaled.jpg)`,
+            backgroundSize: "auto 100%",
+          }}
+        ></div>
         <a name="space"></a>
         <SpaceSection />
         <div
@@ -48,6 +59,7 @@ export default function Home() {
         <MenuSection />
         <a name="photos"></a>
         <GallerySection />
+        <Message />
         <a name="make-reservation"></a>
         <ReservationSection />
         <a name="contact"></a>

@@ -85,9 +85,6 @@ const SpaceSection = () => {
         arrows={false}
         afterChange={(index) => {
           setActiveSlide(index);
-          console.log(
-            `Slider Changed to: ${index}, background: #222; color: #bada55`
-          );
         }}
         ref={sliderRef}
       >

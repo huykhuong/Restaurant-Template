@@ -46,6 +46,17 @@ const Navigation = ({ openNavigation, setOpenNavigation, setIconOpen }) => {
                   onClick={() => {
                     setOpenNavigation(false), setIconOpen(false);
                   }}
+                  href="#story"
+                  className={style.listLink}
+                >
+                  Câu chuyện
+                </a>
+              </li>
+              <li className={style.listItem}>
+                <a
+                  onClick={() => {
+                    setOpenNavigation(false), setIconOpen(false);
+                  }}
                   href="#space"
                   className={style.listLink}
                 >
@@ -73,9 +84,6 @@ const Navigation = ({ openNavigation, setOpenNavigation, setIconOpen }) => {
                 >
                   Hình ảnh
                 </a>
-              </li>
-              <li className={style.listItem}>
-                <a className={style.listLink}>Thông Điệp</a>
               </li>
               <li className={style.listItem}>
                 <a
