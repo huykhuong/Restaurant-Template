@@ -13,7 +13,7 @@ const Contacts = () => {
         }}
       ></div>
 
-      <div className="absolute top-[30%] w-full z-10 text-center text-white px-[15px] lg:top-[40%]">
+      <div className="absolute top-[25%] w-full z-10 text-center text-white px-[15px] lg:top-[40%]">
         <div className="absolute top-[-64%] right-0 rellax">
           <img
             className="float-right max-w-[60%]"
@@ -41,9 +41,21 @@ const Contacts = () => {
           >
             <h3 className="font-bold">GIỜ HOẠT ĐỘNG</h3>
             <br></br>
-            <p className="italic">11h - 21h (gọi món cuối lúc 20:30)</p>
+            <p className="italic">11h - 21h (ngưng nhận đơn lúc 20:30)</p>
             <br></br>
             <p className="italic">(đóng cửa vào Thứ hai)</p>
+          </div>
+
+          <div
+            className="rellax text-[14px] tracking-[0.15em] max-w-[480px] p-[20px] mt-[30px] mb-[15px] lg:mt-[0] lg:text-[16px]"
+            data-rellax-speed="2"
+            data-rellax-percentage="0.2"
+          >
+            <h3 className="font-bold">ĐÓNG CỬA</h3>
+            <br></br>
+            <p className="italic">Thứ 2 hàng tuần</p>
+            <br></br>
+            <p className="italic">(trừ các ngày Lễ, mùng 1 và 15 âm lịch)</p>
           </div>
 
           <div
@@ -82,6 +94,7 @@ const Contacts = () => {
                   width="33"
                   height="33"
                   viewBox="0 0 24 24"
+                  className="lg:cursor-pointer"
                   style={{ fill: "#fff" }}
                 >
                   <path
@@ -92,7 +105,7 @@ const Contacts = () => {
                 </svg>
               </Link>
 
-              <PhoneIcon className="h-6 w-6" />
+              <PhoneIcon className="h-6 w-6 lg:cursor-pointer" />
             </div>
 
             <br></br>
@@ -105,7 +118,7 @@ const Contacts = () => {
       </div>
 
       <div
-        className="text-center text-white rellax text-[14px] tracking-[0.15em] max-w-[480px] mx-auto mb-[200px] lg:mt-[0] lg:text-[16px]"
+        className="text-center text-white rellax text-[14px] tracking-[0.15em] max-w-[480px] mx-auto mb-[200px] mt-[100px] lg:mt-[0] lg:text-[16px]"
         data-rellax-speed="2"
         data-rellax-percentage="0.2"
       >
