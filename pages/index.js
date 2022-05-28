@@ -22,12 +22,8 @@ export default function Home() {
         <meta
           name="description"
           content="Nhà hàng chay AN TRÚ phục vụ các món ăn chay lấy cảm hứng từ các
-              nước châu Á điển hình như Hàn Quốc và Nhật Bản, hoà điệu với văn
-              hoá ẩm thực chay Việt Nam để tạo nên màu sắc tươi mới, đương đại. Nhà hàng chay AN TRÚ mang âm hưởng Phật Giáo Ứng Dụng vào cuộc sống hiện đại, nên các chiến lược và đường lối kinh doanh đều dựa
-              trên lời dạy của Đức Phật và những vị Thầy đáng kính của chúng
-              tôi. Bởi lẽ đó, sự ủng hộ của quý thực khách là “tăng thượng
-              duyên” cho chúng tôi thực hiện sứ mệnh “chia sẻ một chút gì với
-              Nhân - Loài và Trái Đất”."
+          nước châu Á điển hình như Hàn Quốc và Nhật Bản, hoà điệu với văn
+          hoá ẩm thực chay Việt Nam để tạo nên màu sắc tươi mới, đương đại."
         />
         <meta
           name="keywords"
@@ -40,11 +36,7 @@ export default function Home() {
           property="og:description"
           content="Nhà hàng chay AN TRÚ phục vụ các món ăn chay lấy cảm hứng từ các
               nước châu Á điển hình như Hàn Quốc và Nhật Bản, hoà điệu với văn
-              hoá ẩm thực chay Việt Nam để tạo nên màu sắc tươi mới, đương đại. Nhà hàng chay AN TRÚ mang âm hưởng Phật Giáo Ứng Dụng vào cuộc sống hiện đại, nên các chiến lược và đường lối kinh doanh đều dựa
-              trên lời dạy của Đức Phật và những vị Thầy đáng kính của chúng
-              tôi. Bởi lẽ đó, sự ủng hộ của quý thực khách là “tăng thượng
-              duyên” cho chúng tôi thực hiện sứ mệnh “chia sẻ một chút gì với
-              Nhân - Loài và Trái Đất”."
+              hoá ẩm thực chay Việt Nam để tạo nên màu sắc tươi mới, đương đại."
         />
         <meta property="og:url" content="https://antruveggie.vn" />
         <meta property="og:site_name" content="Nhà hàng chay An Trú" />
