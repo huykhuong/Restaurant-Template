@@ -20,6 +20,10 @@ export default function Home() {
       <Head>
         <title>Nhà hàng chay An Trú</title>
         <meta
+          name="google-site-verification"
+          content="x9vtqrNvAaZmGYmfJZuMTJZK____iAIMln2m86_gSUM"
+        />
+        <meta
           name="description"
           content="Nhà hàng chay AN TRÚ phục vụ các món ăn chay lấy cảm hứng từ các
           nước châu Á điển hình như Hàn Quốc và Nhật Bản, hoà điệu với văn
@@ -40,6 +44,9 @@ export default function Home() {
         />
         <meta property="og:url" content="https://antruveggie.vn" />
         <meta property="og:site_name" content="Nhà hàng chay An Trú" />
+        <meta name="twitter:title" content="Nhà hàng chay An Trú"></meta>
+        <meta name="twitter:url" content="https://antruveggie.vn"></meta>
+        <meta name="twitter:card" content="summary"></meta>
         <link rel="canonical" href="https://antruveggie.vn" />
       </Head>
 

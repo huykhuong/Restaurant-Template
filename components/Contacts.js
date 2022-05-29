@@ -41,7 +41,7 @@ const Contacts = () => {
           >
             <h3 className="font-bold">GIỜ HOẠT ĐỘNG</h3>
             <br></br>
-            <p className="italic">11h - 21h (ngưng nhận đơn lúc 20:30)</p>
+            <p className="italic">11:00 - 21:00 (ngưng nhận đơn lúc 20:30)</p>
             <br></br>
             <p className="italic">(đóng cửa vào Thứ hai)</p>
           </div>
