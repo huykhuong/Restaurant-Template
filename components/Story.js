@@ -19,39 +19,28 @@ const Story = () => {
       <div
         className="bg-center bg-no-repeat w-full h-screen"
         style={{
-          backgroundImage: `url(https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/Frantzen_Book_7130-scaled.jpg)`,
-          backgroundSize: "auto 100%",
+          backgroundImage: `url(https://images.unsplash.com/photo-1635194979593-c837f944cc74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)`,
+          backgroundSize: "100% 100%",
         }}
       ></div>
 
       <div className="absolute top-[30%] w-full z-10 text-center text-white rellax px-[15px] lg:top-[40%]">
         <div className="font-bold text-[14px] tracking-[0.15em] max-w-[480px] mx-auto mt-[10px] mb-[15px] lg:text-[16px]">
-          CÂU CHUYỆN
+          STORY
         </div>
         <div className="italic text-[20px] mx-auto mt-[10px] mb-[15px] lg:text-[27px]">
-          Nhà hàng chay AN TRÚ phục vụ
+          Lorem ipsum dolor sit amet
           <br></br>
-          các món ăn chay lấy cảm hứng từ
+          consectetur adipiscing elit, sed do eiusmod tempor
           <br></br>
-          các nước châu Á điển hình như Hàn
+          Lorem ipsum dolor sit amet, consectetur
           <br></br>
-          Quốc và Nhật Bản, hoà điệu với văn hoá
+          Lorem ipsum dolor sit amet, consectetur
           <br></br>
-          ẩm thực chay Việt Nam để tạo nên màu sắc
+          Lorem ipsum dolor sit amet
           <br></br>
-          tươi mới, đương đại.
+          Lorem ipsum dolor
         </div>
-
-        {/* <div className="italic opacity-90 text-[20px] mx-auto mt-[10px] mb-[15px] lg:text-[35px]">
-          Nhà hàng chay AN TRÚ mang âm hưởng Phật Giáo Ứng Dụng vào cuộc sống
-          hiện đại, nên các chiến lược và đường lối kinh doanh đều dựa trên lời
-          dạy của Đức Phật và những vị Thầy đáng kính của chúng tôi
-        </div> */}
-        {/* <div className="text-[12px] max-w-[480px] mx-auto mt-[10px] mb-[15px] lg:text-[14px]">
-          <button className="border m-[30px] px-[30px] py-[12px] tracking-[0.1em] rounded-md">
-            Chi tiết
-          </button>
-        </div> */}
       </div>
     </div>
   );

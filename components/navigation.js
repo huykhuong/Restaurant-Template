@@ -38,7 +38,7 @@ const Navigation = ({ openNavigation, setOpenNavigation, setIconOpen }) => {
                   href="#welcome"
                   className={style.listLink}
                 >
-                  Lời chào
+                  Welcome
                 </a>
               </li>
               <li className={style.listItem}>
@@ -49,7 +49,7 @@ const Navigation = ({ openNavigation, setOpenNavigation, setIconOpen }) => {
                   href="#story"
                   className={style.listLink}
                 >
-                  Câu chuyện
+                  Story
                 </a>
               </li>
               <li className={style.listItem}>
@@ -60,7 +60,7 @@ const Navigation = ({ openNavigation, setOpenNavigation, setIconOpen }) => {
                   href="#space"
                   className={style.listLink}
                 >
-                  Không gian
+                  Space
                 </a>
               </li>
               <li className={style.listItem}>
@@ -71,7 +71,7 @@ const Navigation = ({ openNavigation, setOpenNavigation, setIconOpen }) => {
                   href="#menu"
                   className={style.listLink}
                 >
-                  Thực đơn
+                  Menu
                 </a>
               </li>
               <li className={style.listItem}>
@@ -82,7 +82,7 @@ const Navigation = ({ openNavigation, setOpenNavigation, setIconOpen }) => {
                   href="#photos"
                   className={style.listLink}
                 >
-                  Hình ảnh
+                  Gallery
                 </a>
               </li>
               <li className={style.listItem}>
@@ -93,7 +93,7 @@ const Navigation = ({ openNavigation, setOpenNavigation, setIconOpen }) => {
                   href="#make-reservation"
                   className={style.listLink}
                 >
-                  Đặt bàn
+                  Reservation
                 </a>
               </li>
               <li className={style.listItem}>
@@ -104,7 +104,7 @@ const Navigation = ({ openNavigation, setOpenNavigation, setIconOpen }) => {
                   href="#contact"
                   className={style.listLink}
                 >
-                  Liên hệ
+                  Contact
                 </a>
               </li>
             </ul>

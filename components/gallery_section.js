@@ -21,40 +21,8 @@ const GallerySection = () => {
     }
   }, []);
 
-  const renderArrows = () => {
-    return (
-      <div>
-        <button
-          className="absolute w-[30px] z-20 opacity-75 rotate-[90deg] left-20 top-1/2 -translate-y-1/2 cursor-pointer"
-          onClick={() => sliderRef.current.slickPrev()}
-        >
-          <img src="https://www.restaurantfrantzen.com/wp/wp-content/themes/frantzen2021/images/arrow_down.svg" />
-        </button>
-        <button
-          className="absolute w-[30px] z-20 opacity-75 rotate-[270deg] right-20 top-1/2 -translate-y-1/2 cursor-pointer"
-          onClick={() => sliderRef.current.slickNext()}
-        >
-          <img src="https://www.restaurantfrantzen.com/wp/wp-content/themes/frantzen2021/images/arrow_down.svg" />
-        </button>
-      </div>
-    );
-  };
-
   return (
     <div className="relative">
-      <div className={`${size.width < 768 ? "hidden" : "inline"}`}>
-        {renderArrows()}
-      </div>
-
-      {/* <div className="absolute top-[30%] w-full px-15 z-10 text-center text-white rellax lg:top-[40%]">
-        <div className="text-[16px] tracking-[0.15em] lg:text-[18px]">
-          KHÔNG GIAN
-        </div>
-        <div className="italic tracking-[0.15em] opacity-90 text-[19px] lg:text-[22px]">
-          {renderText(activeSlide)}
-        </div>
-      </div> */}
-
       <Slider
         dots={true}
         infinite={true}
@@ -67,67 +35,27 @@ const GallerySection = () => {
         <img
           width={1500}
           height={2250}
-          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF-web25.jpg"
+          src="https://images.unsplash.com/photo-1609167830240-fc81e9cfd9bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
         />
 
         <img
           width={1500}
           height={2250}
-          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF-web26.jpg"
+          src="https://images.unsplash.com/photo-1516100882582-96c3a05fe590?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
         />
 
         <img
           width={1500}
           height={2250}
-          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF-web17.jpg"
+          src="https://images.unsplash.com/photo-1485962093642-5f4386e84429?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
         />
 
         <img
           width={1500}
           height={2250}
-          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF-web18.jpg"
+          src="https://images.unsplash.com/photo-1559528896-c5310744cce8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
         />
-
-        <img
-          width={1500}
-          height={2250}
-          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF-web15.jpg"
-        />
-        <img
-          width={1500}
-          height={2250}
-          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF-web16.jpg"
-        />
-        <img
-          width={1500}
-          height={2250}
-          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF-web21.jpg"
-        />
-        <img
-          width={1500}
-          height={2250}
-          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF-web22.jpg"
-        />
-        <img
-          width={1500}
-          height={2250}
-          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF-web19.jpg"
-        />
-        <img
-          width={1500}
-          height={2250}
-          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF-web20.jpg"
-        />
-        <img
-          width={1500}
-          height={2250}
-          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF-web23.jpg"
-        />
-        <img
-          width={1500}
-          height={2250}
-          src="https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/RF-web24.jpg"
-        />
+        {/* Add more images to gallery here, make sure to add 2 images at a time to make a slide have 2 images */}
       </Slider>
     </div>
   );

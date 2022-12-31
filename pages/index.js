@@ -18,36 +18,10 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Nhà hàng chay An Trú</title>
-        <meta
-          name="google-site-verification"
-          content="x9vtqrNvAaZmGYmfJZuMTJZK____iAIMln2m86_gSUM"
-        />
-        <meta
-          name="description"
-          content="Nhà hàng chay AN TRÚ phục vụ các món ăn chay lấy cảm hứng từ các
-          nước châu Á điển hình như Hàn Quốc và Nhật Bản, hoà điệu với văn
-          hoá ẩm thực chay Việt Nam để tạo nên màu sắc tươi mới, đương đại."
-        />
-        <meta
-          name="keywords"
-          content="An Trú, An Tru, nhà hàng chay An Trú, nhà hàng chay tân phú, nhà hàng chay TP.HCM, nhà hàng chay, đồ ăn chay, vegetarian restaurant, antruveggie"
-        />
+        <title>Restaurant Name</title>
+
         <meta name="robots" content="noodp,index,follow" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Nhà hàng chay An Trú" />
-        <meta
-          property="og:description"
-          content="Nhà hàng chay AN TRÚ phục vụ các món ăn chay lấy cảm hứng từ các
-              nước châu Á điển hình như Hàn Quốc và Nhật Bản, hoà điệu với văn
-              hoá ẩm thực chay Việt Nam để tạo nên màu sắc tươi mới, đương đại."
-        />
-        <meta property="og:url" content="https://antruveggie.vn" />
-        <meta property="og:site_name" content="Nhà hàng chay An Trú" />
-        <meta name="twitter:title" content="Nhà hàng chay An Trú"></meta>
-        <meta name="twitter:url" content="https://antruveggie.vn"></meta>
-        <meta name="twitter:card" content="summary"></meta>
-        <link rel="canonical" href="https://antruveggie.vn" />
       </Head>
 
       <main className="w-full h-full">
@@ -65,22 +39,10 @@ export default function Home() {
         <WelcomeSection />
         <a name="story"></a>
         <Story />
-        <div
-          className="bg-center bg-no-repeat h-screen mt-[50px]"
-          style={{
-            backgroundImage: `url(https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/DSC_3225-scaled.jpg)`,
-            backgroundSize: "auto 100%",
-          }}
-        ></div>
+
         <a name="space"></a>
         <SpaceSection />
-        <div
-          className="bg-center bg-no-repeat h-screen mt-[50px]"
-          style={{
-            backgroundImage: `url(https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/Frantzen_Book_4100-scaled.jpg)`,
-            backgroundSize: "auto 100%",
-          }}
-        ></div>
+
         <a name="menu"></a>
         <MenuSection />
         <a name="photos"></a>
@@ -93,13 +55,9 @@ export default function Home() {
       </main>
 
       <footer className="fixed bottom-0 w-screen border-t-2 border-t-black text-white bg-[#3A563E] text-center py-[10px] z-10 text-[13px]">
-        <a href="mailto:nhahangchayantru@gmail.com">
-          nhahangchayantru@gmail.com
-        </a>{" "}
+        <a href="mailto:nhahangchayantru@gmail.com">name@gmail.com</a>
         +46 (0)8 20 85 80
       </footer>
     </div>
   );
 }
-
-// bg-[#7b1719]

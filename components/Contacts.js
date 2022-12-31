@@ -8,29 +8,22 @@ const Contacts = () => {
       <div
         className="bg-center bg-no-repeat w-full h-[130vh]"
         style={{
-          backgroundImage: `url(https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/Ftrantzen_Book_9814-scaled.jpg)`,
-          backgroundSize: "auto 100%",
+          backgroundImage: `url(https://images.unsplash.com/photo-1517084166762-9edca41416e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1746&q=80)`,
+          backgroundSize: "100% 100%",
         }}
       ></div>
 
       <div className="absolute top-[25%] w-full z-10 text-center text-white px-[15px] lg:top-[40%]">
-        <div className="absolute top-[-64%] right-0 rellax">
-          <img
-            className="float-right max-w-[60%]"
-            src="https://www.restaurantfrantzen.com/wp/wp-content/themes/frantzen2021/images/spoon/spoon.png?v=1.01"
-          />
-        </div>
-
         <div className="absolute w-[95%] flex flex-col flex-nowrap text-center items-center justify-center lg:flex-row lg:w-[99%]">
           <div
             className="rellax text-[14px] tracking-[0.15em] max-w-[480px] p-[20px] mt-[10px] mb-[15px] lg:text-[16px]"
             data-rellax-speed="2"
             data-rellax-percentage="0.2"
           >
-            <h3 className="font-bold">LIÊN HỆ CHÚNG TÔI</h3>
+            <h3 className="font-bold">CONTACT US</h3>
             <br></br>
             <p className="italic">
-              230 Nguyễn Sơn, Phú Thọ Hòa, Tân Phú, Tp.HCM
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit
             </p>
           </div>
 
@@ -39,11 +32,13 @@ const Contacts = () => {
             data-rellax-speed="2"
             data-rellax-percentage="0.2"
           >
-            <h3 className="font-bold">GIỜ HOẠT ĐỘNG</h3>
+            <h3 className="font-bold">OPENING HOURS</h3>
             <br></br>
-            <p className="italic">11:00 - 21:00 (ngưng nhận đơn lúc 20:30)</p>
+            <p className="italic">11:00 - 21:00 (Lorem ipsum dolor sit amet)</p>
             <br></br>
-            <p className="italic">(đóng cửa vào Thứ hai)</p>
+            <p className="italic">
+              (Lorem ipsum dolor sit amet, consectetur adipiscing elit)
+            </p>
           </div>
 
           <div
@@ -51,11 +46,11 @@ const Contacts = () => {
             data-rellax-speed="2"
             data-rellax-percentage="0.2"
           >
-            <h3 className="font-bold">ĐÓNG CỬA</h3>
+            <h3 className="font-bold">CLOSES</h3>
             <br></br>
-            <p className="italic">Thứ 2 hàng tuần</p>
+            <p className="italic">Every Monday</p>
             <br></br>
-            <p className="italic">(trừ các ngày Lễ, mùng 1 và 15 âm lịch)</p>
+            <p className="italic">(Lorem ipsum dolor sit amet, consectetur)</p>
           </div>
 
           <div
@@ -63,11 +58,11 @@ const Contacts = () => {
             data-rellax-speed="2"
             data-rellax-percentage="0.2"
           >
-            <h3 className="font-bold">KẾT NỐI</h3>
+            <h3 className="font-bold">CONNECT</h3>
             <br></br>
 
             <div className="flex items-center justify-evenly">
-              <Link href={"https://www.facebook.com/nhahangchayantru"}>
+              <Link href="">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
@@ -86,7 +81,7 @@ const Contacts = () => {
                 </svg>
               </Link>
 
-              <Link href="https://www.instagram.com/antru.vegetarianhouse/?fbclid=IwAR3u84zUkEDbH8fOPmQDxstgTF6RJmu5D0MyA_20Ac4pCcs5VM063JOPqFI">
+              <Link href="">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
@@ -109,10 +104,8 @@ const Contacts = () => {
             </div>
 
             <br></br>
-            <p className="italic">hoặc</p>
-            <p className="italic underline mt-[15px]">
-              nhahangchayantru@gmail.com
-            </p>
+            <p className="italic">or</p>
+            <p className="italic underline mt-[15px]">name@gmail.com</p>
           </div>
         </div>
       </div>
@@ -122,7 +115,7 @@ const Contacts = () => {
         data-rellax-speed="2"
         data-rellax-percentage="0.2"
       >
-        <p>Copyright © 2022 Nhà hàng chay An Trú</p>
+        <p>Copyright © 2023 name</p>
       </div>
     </div>
   );

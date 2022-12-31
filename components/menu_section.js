@@ -18,14 +18,15 @@ const MenuSection = () => {
     <div className="relative mt-[15px]">
       <div className="absolute top-[30%] w-full z-10 text-center text-white rellax px-[15px] lg:top-[40%]">
         <div className="font-bold text-[14px] tracking-[0.15em] max-w-[480px] mx-auto mt-[10px] mb-[15px] lg:text-[16px]">
-          THỰC ĐƠN
+          MENU
         </div>
         <div className="italic text-[18px] max-w-[480px] mx-auto mt-[10px] mb-[15px] lg:text-[20px]">
-          Chúng tôi có menu rất là chất lượng, xem đi nha hi hi hi
+          Lorem ipsum dolor sit amet, consectetur adipiscing
         </div>
         <div className="text-[12px] max-w-[480px] mx-auto mt-[10px] mb-[15px] lg:text-[14px]">
+          {/* Button acts as a link to bring visitor to view pdf menu based on your choice */}
           <button className="border m-[30px] px-[30px] py-[12px] tracking-[0.1em] rounded-md">
-            Chi tiết
+            <a>Details</a>
           </button>
         </div>
       </div>
@@ -33,8 +34,8 @@ const MenuSection = () => {
       <div
         className="bg-center bg-no-repeat w-full h-screen"
         style={{
-          backgroundImage: `url(https://www.restaurantfrantzen.com/wp/wp-content/uploads/2021/11/Ftrantzen_Book_9759-scaled.jpg)`,
-          backgroundSize: "auto 100%",
+          backgroundImage: `url(https://images.unsplash.com/photo-1623667322051-18662ce6334c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80)`,
+          backgroundSize: "100% 100%",
         }}
       ></div>
     </div>
