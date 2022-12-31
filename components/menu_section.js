@@ -34,8 +34,8 @@ const MenuSection = () => {
       <div
         className="bg-center bg-no-repeat w-full h-screen"
         style={{
-          backgroundImage: `url(https://images.unsplash.com/photo-1623667322051-18662ce6334c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80)`,
-          backgroundSize: "100% 100%",
+          backgroundImage: `url(https://images.unsplash.com/photo-1623667322051-18662ce6334c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3000&q=80)`,
+          backgroundSize: "3000px 100%",
         }}
       ></div>
     </div>

@@ -7,7 +7,7 @@ const WelcomeSection = () => {
         className="bg-center bg-no-repeat w-full h-screen"
         style={{
           backgroundImage: `url(https://images.unsplash.com/photo-1618597017017-7ce39f28eb41?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)`,
-          backgroundSize: "100% 100%",
+          backgroundSize: "2500px 100%",
         }}
       ></div>
 

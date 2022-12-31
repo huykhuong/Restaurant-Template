@@ -12,14 +12,8 @@ const renderText = (inputIndex) => {
     case 0:
       return "32 seats, 2 floors, 100m²";
     case 1:
-      return "32 seats, 2 floors, 100m²";
+      return "Kitchen";
     case 2:
-      return "Kitchen";
-    case 3:
-      return "Kitchen";
-    case 4:
-      return "First Floor";
-    case 5:
       return "First Floor";
     default:
       break;
@@ -28,7 +22,6 @@ const renderText = (inputIndex) => {
 
 const SpaceSection = () => {
   const sliderRef = useRef();
-  const size = useWindowSize();
   const [activeSlide, setActiveSlide] = useState(0);
 
   useEffect(() => {
@@ -65,11 +58,23 @@ const SpaceSection = () => {
         }}
         ref={sliderRef}
       >
-        <img src="https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80" />
+        <img
+          className="min-h-[400px]"
+          alt="image"
+          src="https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80"
+        />
 
-        <img src="https://images.unsplash.com/photo-1522336572468-97b06e8ef143?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1752&q=80" />
+        <img
+          className="min-h-[400px]"
+          alt="image"
+          src="https://images.unsplash.com/photo-1522336572468-97b06e8ef143?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1752&q=80"
+        />
 
-        <img src="https://images.unsplash.com/photo-1481833761820-0509d3217039?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" />
+        <img
+          className="min-h-[400px]"
+          alt="image"
+          src="https://images.unsplash.com/photo-1481833761820-0509d3217039?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        />
       </Slider>
     </div>
   );

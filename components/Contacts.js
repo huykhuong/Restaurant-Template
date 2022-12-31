@@ -9,7 +9,7 @@ const Contacts = () => {
         className="bg-center bg-no-repeat w-full h-[130vh]"
         style={{
           backgroundImage: `url(https://images.unsplash.com/photo-1517084166762-9edca41416e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1746&q=80)`,
-          backgroundSize: "100% 100%",
+          backgroundSize: "auto 100%",
         }}
       ></div>
 
